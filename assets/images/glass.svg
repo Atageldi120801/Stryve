@@ -1,0 +1,19 @@
+<svg width="62" height="48" viewBox="0 0 62 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="2" cy="19" r="2" fill="#FF2868"/>
+<ellipse cx="60" cy="29" rx="2" ry="2" transform="rotate(-180 60 29)" fill="#FF2868"/>
+<circle cx="9.5" cy="10.5" r="2.5" fill="#FF2868"/>
+<ellipse cx="52.5" cy="37.5" rx="2.5" ry="2.5" transform="rotate(-180 52.5 37.5)" fill="#FF2868"/>
+<circle cx="19.5" cy="5.5" r="2.5" fill="#FF2868"/>
+<ellipse cx="42.5" cy="42.5" rx="2.5" ry="2.5" transform="rotate(-180 42.5 42.5)" fill="#FF2868"/>
+<circle cx="31" cy="3" r="3" fill="#FF2868"/>
+<circle cx="31" cy="45" r="3" transform="rotate(-180 31 45)" fill="#FF2868"/>
+<circle cx="43.5" cy="5.5" r="2.5" fill="#FF2868"/>
+<ellipse cx="18.5" cy="42.5" rx="2.5" ry="2.5" transform="rotate(-180 18.5 42.5)" fill="#FF2868"/>
+<circle cx="53.5" cy="10.5" r="2.5" fill="#FF2868"/>
+<ellipse cx="8.5" cy="37.5" rx="2.5" ry="2.5" transform="rotate(-180 8.5 37.5)" fill="#FF2868"/>
+<circle cx="60" cy="18" r="2" fill="#FF2868"/>
+<ellipse cx="2" cy="29" rx="2" ry="2" transform="rotate(-180 2 29)" fill="#FF2868"/>
+<path d="M58 23.9999C58 28.3391 45.9117 39.4284 31 39.4284C16.0883 39.4284 4 28.8213 4 23.9999C4 19.1784 16.0883 8.57129 31 8.57129C45.9117 8.57129 58 19.6606 58 23.9999Z" fill="white"/>
+<circle cx="31.0001" cy="23.4489" r="11.5714" fill="#35C89F"/>
+<circle cx="31.0002" cy="23.4489" r="4.95918" fill="#0F00C0"/>
+</svg>

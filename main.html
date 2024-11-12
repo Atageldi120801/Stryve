@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-in">
+            <a href="#" class="brand">
+                <div class="brand2">
+                    <svg id="logo-svg" width="102" height="31" viewBox="0 0 102 31" fill="none" xmlns="http://www.w3.org/2000/svg" class=" drawsvg-initialized">
+                        <path d="M19.2782 20.5823C20.264 20.5823 21.0632 19.7882 21.0632 18.8087C21.0632 17.8291 20.264 17.035 19.2782 17.035C18.2923 17.035 17.4932 17.8291 17.4932 18.8087C17.4932 19.7882 18.2923 20.5823 19.2782 20.5823Z" fill="#009AFF" stroke-width="1" style="stroke-dasharray: 11.1814, 11.1814; stroke-dashoffset: 11.1814px;"></path>
+                        <path d="M30.039 11.1566C34.629 8.90156 35.037 6.21575 34.986 5.12622C34.9095 3.35258 33.6345 1.90832 31.518 1.17352C29.58 0.514738 27.5145 0.565414 25.704 1.30021C23.9445 2.03501 22.593 3.32724 22.032 4.89818C21.4455 6.54514 21.7005 8.62285 23.5875 10.4472C18.8955 11.0553 11.4495 10.4472 1.173 4.99954L0 7.17859C12.8265 13.9945 21.7005 13.6397 26.5455 12.4235C27.081 12.6769 27.642 12.9049 28.2795 13.133C32.0025 14.4759 33.966 16.5789 33.354 18.5806C32.7675 20.5316 29.886 22.1026 26.2395 21.2664C24.7095 20.9117 24.1485 20.557 23.205 19.9995L22.848 19.7715L21.5475 21.8999L21.9045 22.1279C22.9245 22.7614 23.7405 23.2681 25.6785 23.6989C26.571 23.9016 27.438 24.0029 28.254 24.0029C32.13 24.0029 35.0115 21.8492 35.7765 19.2901C36.4905 16.7816 35.343 13.361 30.039 11.1566ZM26.826 9.73771C24.8115 8.57217 23.919 7.12791 24.4035 5.73433C24.9135 4.31541 26.6985 3.20055 28.764 3.20055C29.376 3.20055 30.039 3.3019 30.6765 3.52994C31.1865 3.70731 32.4105 4.2394 32.4615 5.22758C32.5125 6.19041 31.4415 7.7867 28.356 9.15494C27.948 9.35764 27.438 9.56034 26.826 9.73771Z" fill="#0C1D36" style="stroke-dasharray: 159.404, 159.404; stroke-dashoffset: 159.404px;"></path>
+                        <path d="M44.3698 21.4438C42.9418 21.4438 41.7943 20.633 41.7943 18.8847V11.6888H46.3333V9.1043H41.7943V5.20227H38.9383V9.1043H35.8018V11.6888H38.9383V19.2648C38.9383 22.356 40.9783 24.0283 43.6558 24.0283C44.9818 24.0283 46.3843 23.6229 47.6848 22.7361L46.8688 20.6583C46.0528 21.1651 45.1603 21.4438 44.3698 21.4438Z" fill="#0C1D36" style="stroke-dasharray: 66.8101, 66.8101; stroke-dashoffset: 66.8101px;"></path>
+                        <path d="M51.7393 11.5114V9.10428H48.9343V23.8509H51.7903V15.8948C51.7903 12.9556 53.4733 11.5874 55.5643 11.5874C56.1508 11.5874 56.8393 11.7141 57.4768 11.9675L57.9868 9.30698C57.2728 9.07894 56.5333 8.95225 55.8703 8.95225C54.0598 8.92692 52.4533 9.71239 51.7393 11.5114Z" fill="#0C1D36" style="stroke-dasharray: 49.2666, 49.2666; stroke-dashoffset: 49.2666px;"></path>
+                        <path d="M70.0995 16.0975C70.0995 19.0113 68.289 20.9117 65.841 20.9117C63.75 20.9117 62.322 19.5434 62.322 17.2377V9.10425H59.415V17.8205C59.415 21.5705 62.1435 23.4961 65.127 23.4961C67.3965 23.4961 69.2325 22.4319 70.0995 20.6583V23.6735C70.0995 26.5874 68.391 28.133 65.79 28.133C63.5205 28.133 61.8375 27.0181 61.149 24.6617L58.5225 25.7765C59.568 28.9944 62.2455 30.7174 65.7135 30.7174C69.8445 30.7174 72.981 28.0823 72.981 23.3441V9.10425H70.125V16.0975H70.0995Z" fill="#0C1D36" style="stroke-dasharray: 112.174, 112.174; stroke-dashoffset: 112.174px;"></path>
+                        <path d="M85.7819 9.10425L81.5744 20.0249L77.3924 9.10425H74.2559L80.3249 23.8509H82.8494L88.9184 9.10425H85.7819Z" fill="#0C1D36" style="stroke-dasharray: 64.088, 64.088; stroke-dashoffset: 64.088px;"></path>
+                        <path d="M102 15.9201C102 11.334 99.552 8.74951 95.523 8.74951C90.831 8.74951 88.1025 12.3221 88.1025 16.5536C88.1025 20.8103 90.882 24.0029 95.4465 24.0029C98.124 24.0029 100.113 22.9134 101.643 21.013L100.037 19.3154C99.093 20.6076 97.6395 21.4944 95.7015 21.4944C93.075 21.4944 91.29 20.0755 90.933 17.3644H102V15.9201ZM91.0095 15.16C91.341 12.6769 92.871 11.2073 95.421 11.2073C97.92 11.2073 99.144 12.6515 99.1695 15.16H91.0095Z" fill="#0C1D36" style="stroke-dasharray: 89.7889, 89.7889; stroke-dashoffset: 89.7889px;"></path>
+                        <defs>
+                        </defs>
+                        </svg>
+                </div>
+            </a>
+            <div class="nav-menu">
+                <div class="w-dropdown">
+                    <div class="w-dropdown-toggle">
+                        <div class="w-icon-dropdown-toggle toglle1">
+                            <img src="./assets/images/left_arrow_icon_263610.png" alt="">
+                        </div>
+                        <div>Why Stryve</div>
+                    </div>
+                    <div class="flex-menu flex-menu1">
+                        <div class="c-nav-drop__left-item">
+                            <div class="c-why-nav__bubble cc-1"></div>
+                            <div class="c-why-nav__bubble cc-2"></div>
+                            <div class="c-why-nav__bubble cc-3"></div>
+                        </div>
+                        <div class="c-nav-drop__middle-item">
+                            <div class="c-nav-middle__flex-holder">
+                                <a href="#">
+                                    <h5 class="heading-6">Attract talent</h5>
+                                    <img src="./assets/images/left_arrow_icon_263610.png" alt="">
+                                </a>
+                            </div>
+                            <div class="c-nav-middle__flex-holder">
+                                <a href="#">
+                                    <h5 class="heading-6">Assess talent</h5>
+                                    <img src="./assets/images/left_arrow_icon_263610.png" alt="">
+                                </a>
+                            </div>
+                            <div class="c-nav-middle__flex-holder">
+                                <a href="#">
+                                    <h5 class="heading-6">Simplify hiring</h5>
+                                    <img src="./assets/images/left_arrow_icon_263610.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-dropdown">
+                    <div class="w-dropdown-toggle">
+                        <div class="w-icon-dropdown-toggle toglle2">
+                            <img src="./assets/images/left_arrow_icon_263610.png" alt="">
+                        </div>
+                        <div> About us</div>
+                    </div>
+                    <div class="flex-menu flex-menuu flex-menu2">
+                        <div class="c-nav-drop__left-item">
+                            <div class="c-why-nav__bubble cc-1"></div>
+                            <div class="c-why-nav__bubble cc-2"></div>
+                            <div class="c-why-nav__bubble cc-3"></div>
+                            <div class="c-why-nav__bubble cc-4"></div>
+                        </div>
+                        <div class="c-nav-drop__middle-item">
+                            <div class="c-nav-middle__flex-holder">
+                                <a href="#">
+                                    <h5 class="heading-6">About us</h5>
+                                    <img src="./assets/images/left_arrow_icon_263610.png" alt="">
+                                </a>
+                            </div>
+                            <div class="c-nav-middle__flex-holder">
+                                <a href="#">
+                                    <h5 class="heading-6">B Corp</h5>
+                                    <img src="./assets/images/left_arrow_icon_263610.png" alt="">
+                                </a>
+                            </div>
+                            <div class="c-nav-middle__flex-holder">
+                                <a href="#">
+                                    <h5 class="heading-6">Careers</h5>
+                                    <img src="./assets/images/left_arrow_icon_263610.png" alt="">
+                                </a>
+                            </div>
+                            <div class="c-nav-middle__flex-holder">
+                                <a href="#">
+                                    <h5 class="heading-6">Contact</h5>
+                                    <img src="./assets/images/left_arrow_icon_263610.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="w-nav-link">Pricing</a>
+                <div class="w-dropdown">
+                    <div class="w-dropdown-toggle">
+                        <div class="w-icon-dropdown-toggle toglle3">
+                            <img src="./assets/images/left_arrow_icon_263610.png" alt="">
+                        </div>
+                        <div>Resources</div>
+                    </div>
+                    <div class="flex-menu flex-menuuu flex-menu3">
+                        <div class="c-nav-drop__left-item">
+                            <div class="c-why-nav__bubble cc-1"></div>
+                            <div class="c-why-nav__bubble cc-2"></div>
+                            <div class="c-why-nav__bubble cc-3"></div>
+                            <div class="c-why-nav__bubble cc-4"></div>
+                        </div>
+                        <div class="c-nav-drop__middle-item">
+                            <a href="#" class="c-nav__flex-item">
+                                <h5 class="heading-6">Resources</h5>
+                                <img src="./assets/images/left_arrow_icon_263610.png" alt="">
+                            </a>
+                            <div class="c-nav-middle__flex-holder">
+                                <a href="#">
+                                    <h5 class="heading-6">User guide </h5>
+                                </a>
+                            </div>
+                            <div class="c-nav-middle__flex-holder">
+                                <a href="#">
+                                    <h5 class="heading-6">API documentation</h5>
+                                </a>
+                            </div>
+                            <div class="c-nav-middle__flex-holder">
+                                <a href="#">
+                                    <h5 class="heading-6">Raise ticket</h5>   
+                                </a>
+                            </div>
+                        </div>
+                        <div class="c-nav-drop__right-item">
+                            <a href="#" class="c-nav__flex-item">
+                                <h5 class="heading-6">Education</h5>
+                                <img src="./assets/images/left_arrow_icon_263610.png" alt="">
+                            </a>
+                            <div class="c-nav-middle__flex-holder">
+                                <a href="#">
+                                    <h5 class="heading-6">Tips, Tricks & Guides</h5>    
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-line__separator"></div>
+                <a href="#" class="w-nav-link nav-link-2">Log in</a>
+                <a href="#" class="c-btn cc-with-icon mr-40 w-nav-link">Try for free</a>
+            </div>
+            <a href="#" class="c-menu-buttonn">
+                <div class="c-menu-linee"></div>
+                <div class="c-menu-linee"></div>
+                <div class="c-menu-linee"></div>
+            </a>
+            <div class="c-nav__menu-list">
+                <div class="c-nav__menu-list-in">
+                    <div class="c-nav-menu__header">
+                        <a href="" class="w-nav-brand">
+                            <img src="./assets/images/stryve.svg" alt="">
+                        </a>
+                        <div class="c-nav-menu__close">
+                            <div class="w-embed">
+                                <svg width="24px" height="24px" id="Layer_1" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class=" drawsvg-initialized">
+                                    <path d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z" style="stroke-dasharray: 1930.07, 1930.07; stroke-dashoffset: -1929.32px;"></path>
+                                    </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cc-nav-menu">
+                        <a href="#" class="c-nav__menu-link w-inline-block w--current animate-text">
+                            <div class="text-block-11 block1">Home</div>
+                        </a>
+                        <div class="c-nav-menu__dropdown w-dropdown">
+                            <div class="dropdown-toggle-44 w-dropdown-togglee">
+                                <div class="w-icon">
+                                    <img src="./assets/images/left_arrow_icon_263610.png" alt="">
+                                </div>
+                                <div class="text-block-11">Why</div>
+                            </div>
+                            <div class="dropdown-list w-dropdown-list">
+                                
+                            </div>
+                        </div>
+                        <a href="#" class="c-nav__menu-link w-inline-block w--current animate-text">
+                            <div class="text-block-11">About</div>
+                        </a>
+                        <a href="#" class="c-nav__menu-link w-inline-block w--current animate-text">
+                            <div class="text-block-11">Pricing</div>
+                        </a>
+                        <div class="c-nav-menu__dropdown w-dropdown">
+                            <div class="dropdown-toggle-44 w-dropdown-togglee">
+                                <div class="w-icon">
+                                    <img src="./assets/images/left_arrow_icon_263610.png" alt="">
+                                </div>
+                                <div class="text-block-11">Resources</div>
+                            </div>
+                            <div class="dropdown-list w-dropdown-list">
+
+                            </div>
+                        </div>
+                        <a href="#" class="c-nav__menu-link w-inline-block w--current animate-text block">
+                            <div class="text-block-11 block2">Try for free</div>
+                        </a>
+                        <a href="#" class="c-nav__menu-link w-inline-block w--current animate-text">
+                            <div class="text-block-11">Login</div>
+                        </a>
+                    </div>
+                    <div class="c-bubble__wrapper _200 nav-menu" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
+                    <div class="c-bubble__wrapper _240 nav-menu" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
+                    <div class="c-bubble__wrapper _205 nav-menu" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="page__wrapperrr">
+        <header class="c-hero cc-flex">
+            <div class="header-in">
+                <div class="header-inner-up c-hero__cover is-home-hero">
+                    <div class="div-block">
+                        <div data-w-id="be4966a0-3113-fd19-e158-467bd1b30c4f" class="c-bubble__wrapper _340"><img src="./assets/images/6135d217a84bbf349c0a069f_Ellipse 24.svg" loading="lazy" alt="green full circle" class="c-assess__svg"></div>
+                        <div id="moving-test" data-w-id="42243e6f-1df0-a2d1-eed8-11c22b776bc6" class="c-bubble__wrapper _240"><img src="./assets/images/ee.svg" loading="lazy" alt="turquoise full circle" class="c-assess__svg"></div>
+                        <div class="c-bubble__wrapper _200"><img src="./assets/images/red.svg" loading="lazy" alt="dark pink full circle" class="c-assess__svg"></div>
+                        <div class="c-bubble__wrapper _68"><img src="./assets/images/6135d217a84bbfeb130a06c1_Ellipse 14.svg" loading="lazy" alt="yellow full circle" class="c-assess__svg"></div>
+                        <div class="c-bubble__wrapper _205"><img src="./assets/images/red.svg" loading="lazy" alt="dark pink full circle" class="c-assess__svg"></div>
+                        <div class="c-bubble__wrapper _72"><img src="./assets/images/i.svg" loading="lazy" alt="orange full circle" class="c-assess__svg"></div>
+                        <div class="c-bubble__wrapper _38"><img src="./assets/images/6135d217a84bbf64990a06c0_Ellipse 29.svg" loading="lazy" alt="light pink full circle" class="c-assess__svg"></div>
+                        <div class="_115">
+                            <div class="avatar-placeholder">
+                                <img class="c-hero__avatar" src="./assets/images/6135d217a84bbfef900a0778_stryve-hero-thumbnail-img.png" alt="">
+                            </div>
+                        </div>
+                        <div style="transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="c-tag__holder cc-1"><div class="text-11 center-text">Applied via Stryve Jobs</div></div>
+                        <div style="transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="c-tag__holder cc-2"><div class="text-11 center-text">Filtered with Stryve AI</div></div>
+                        <div style="transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="c-tag__holder cc-3"><div>A beautiful, automated interview process</div></div>
+                        <div style="transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="c-tag__holder cc-4"><div class="text-11 center-text">Hired with Stryve</div></div>
+                        <div class="c-draw-line__holder"><div class="c-draw-line__img w-embed"><svg id="hero-svg" width="100%" height="100%" viewBox="0 0 555 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M-92 0C-48 278 244.5 102 352.5 228.5C454.426 347.886 377.961 440.241 261 549C97 701.5 323.958 979.656 483.5 770.5C565.5 663 450 570.5 467.5 491C473.884 462 513 421.5 553.5 435" stroke="white" stroke-width="4" style="stroke-dasharray: 1888, 1890; stroke-dashoffset: 0;"></path>
+                            </svg></div></div>
+                    </div>
+                    <img src="./assets/images/logo.png" alt="">
+                </div>
+                <div class="header-inner-down c-ctn cc-absolute">
+                    <div class="header-inner-down-in .c-hero__content .is--home">
+                        <div class="header-text c-hero__text is--mob">
+                            <div class="header-text-in title-row1__holder">
+                                <h1>
+                                    <div class="lineswrapp">
+                                        Hiring's
+                                    </div>
+                                </h1>
+                                <h1>hard.</h1>
+                            </div>
+                            <h1 class="heading-9">
+                                <div class="lineswrapp">
+                                    We've made it
+                                </div>
+                                <div class="lineswrapp">
+                                    easy.
+                                </div>
+                            </h1>
+                            <p class="paragraph-3">
+                                Say goodbye to the hassle of using multiple platforms for hiring and onboarding, and hello to Stryve – the only tool you'll ever need for your end-to-end hiring process. So why wait? Try Stryve today and streamline your hiring process like never before!
+                            </p>
+                        </div>
+                        <div class="flex-wrapper">
+                            <div class="c-btn cc-with-icon mg-right__20 w-inline-block">
+                                <div>Try for free</div>
+                                <img src="./assets/images/right-side.svg" alt="">
+                            </div>
+                            <div class="flex-wrapper-btn cc-white cc-with-play w-inline-block">
+                                <div class="flex-wrapper-btn-in sm-ellipse cc-gray">
+                                    <img src="./assets/images/play.svg" alt="">
+                                </div>
+                                <div class="flex-wrapper-btn-in text-block-4">Learn more</div>
+                            </div>
+                        </div>
+                        <div class="text-block-21">
+                            14 day free trial - no credit card required.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="helping-teams c-section">
+            <div class="helping-teams-inner">
+                <div class="c-beige__bg">
+                    <div class="c-bg-layer__img-holder">
+                        <img src="./assets/images/6135d217a84bbf1ece0a0759_Rectangle 62.png" alt="">
+                    </div>
+                </div>
+                <div class="helping-teams-inner-in c-ctn">
+                    <div class="helping-in">
+                        <div class="div">
+                            <h2>
+                                <div class="lineswrap">Helping teams of all sizes take on the world</div>
+                            </h2>
+                        </div>
+                        <span>
+                            <div class="lineswrap">Stryve is your one-stop shop for finding the talent</div>
+                            <div class="lineswrap">your business needs</div>
+                        </span>
+                    </div>
+                    <div class="c-growth-slider__container">
+                        <div class="swiper-arrows__2-out">
+                            <div class="swiper-arrows__2">
+                                <div class="swiper-arrow-holder">
+                                    <img src="./assets/images/side.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-arrows__2">
+                                <div class="swiper-arrow-holder swiperr-right">
+                                    <img src="./assets/images/side.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slidee">
+                                    <div class="swiper-slide-in cc-pink-bg_2">
+                                        <div class="c-card__header">
+                                            <img src="./assets/images/helps3.svg" alt="">
+                                            <h2>ATS</h2>
+                                        </div>
+                                        <div class="c-card__text-content">
+                                            <h4>A refreshing platform to manage your talent pool </h4>
+                                            <p>Our intuitive talent management system manages your hiring process from attracting candidates, nurture programs, custom analytics and onboarding. <br></p>
+                                        </div>
+                                        <div class="c-btn__holder">
+                                            <a href="#">See how</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide swiper-slidee cc-pink-bg">
+                                    <div class="swiper-slide-in cc-pink-bg_3">
+                                        <div class="c-card__header">
+                                            <img src="./assets/images/glass.svg" alt="">
+                                            <h2>Data</h2>
+                                        </div>
+                                        <div class="c-card__text-content">
+                                            <h4>We’ve got the data stuff covered </h4>
+                                            <p>Running a business is complicated enough. So why not let Stryve take care of your recruitment data, to keep you secure and GDPR compliant? <br><br><br>‍‍‍‍&zwj;</p>
+                                        </div>
+                                        <div class="c-btn__holder">
+                                            <a href="#">See how</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide swiper-slidee">
+                                    <div class="swiper-slide-in cc-pink-bg_4">
+                                        <div class="c-card__header">
+                                            <img src="./assets/images/helps2.svg" alt="">
+                                            <h2>Brand</h2>
+                                        </div>
+                                        <div class="c-card__text-content c-card__text-content3">
+                                            <h4>Make your company shine</h4>
+                                            <p>With our recruitment branding you're sure to wow your applicants from the very first interaction right through to hire. <br> <br> Utilise our built-in career site, automated email flows, social media integrations and so much more.</p>
+                                        </div>
+                                        <div class="c-btn__holder">
+                                            <a href="#">See how</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="attract c-section no-padding">
+            <div class="attract-inner">
+                <div class="c-content-holder">
+                    <div class="c-content-holder-in_up">
+                        <div class="c-content_wrapper">
+                            <div class="c-text__content">
+                                <h3>Attract</h3>
+                                <h2>Lure,charm,mesmerise</h2>
+                                <p>
+                                    <div class="lineswrap">Fortune favours the bold.Attract,engage and hire the best talent quickly.Sign-up is simple - just watch the magic unfold.
+                                    </div>
+                                </p>
+                            </div>
+                            <div class="flex-wrapper">
+                                <a href="" class="c-btn">
+                                    <div>How do we do that?</div>
+                                    <img src="./assets/images/right-side.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-content-holder-in_down">
+                        <div class="c-content-holder-in_down-in">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1955 1400" width="1955" height="1400" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+                                <g class="png">
+                                  <image  href="./assets/images/iii.png" style="transform: translateX(-5px);"></image>
+                                </g>
+                                <g class="circles">
+                                  <!-- birinji top -->
+                                  <g class="circless1" transform="matrix(0.8999999761581421,0,0,0.8999999761581421,706,700)" opacity="1" style="display: block;">
+                                    <g opacity="1" transform="matrix(0.8600000143051147,0,0,0.8600000143051147,137.41700744628906,132.86399841308594)">
+                                    <path fill="rgb(255,40,104)" fill-opacity="1" d=" M0,-55.60100173950195 C30.686193466186523,-55.60100173950195 55.60100173950195,-30.686193466186523 55.60100173950195,0 C55.60100173950195,30.686193466186523 30.686193466186523,55.60100173950195 0,55.60100173950195 C-30.686193466186523,55.60100173950195 -55.60100173950195,30.686193466186523 -55.60100173950195,0 C-55.60100173950195,-30.686193466186523 -30.686193466186523,-55.60100173950195 0,-55.60100173950195z"></path>
+                                    </g>
+                                  </g>
+                                  <!-- ikinji top -->
+                                  <g class="circless2" transform="matrix(0.8999999761581421,0,0,0.8999999761581421,706,700)" opacity="1" style="display: block;">
+                                    <g opacity="1" transform="matrix(0.800000011920929,0,0,0.800000011920929,77.1240005493164,-118.1709976196289)">
+                                      <path fill="rgb(146,55,189)" fill-opacity="1" d=" M0,-30.651500701904297 C16.916563034057617,-30.651500701904297 30.651500701904297,-16.916563034057617 30.651500701904297,0 C30.651500701904297,16.916563034057617 16.916563034057617,30.651500701904297 0,30.651500701904297 C-16.916563034057617,30.651500701904297 -30.651500701904297,16.916563034057617 -30.651500701904297,0 C-30.651500701904297,-16.916563034057617 -16.916563034057617,-30.651500701904297 0,-30.651500701904297z">
+                                      </path>
+                                    </g>
+                                  </g>
+                                  <!-- ucunji top -->
+                                  <g class="circless3" transform="matrix(0.8999999761581421,0,0,0.8999999761581421,723,706)" opacity="1" style="display: block;">
+                                    <g opacity="1" transform="matrix(1,0,0,1,20.672000885009766,-250.20399475097656)">
+                                      <path fill="rgb(55,200,159)" fill-opacity="1" d=" M0,-29.22599983215332 C16.12982940673828,-29.22599983215332 29.22599983215332,-16.12982940673828 29.22599983215332,0 C29.22599983215332,16.12982940673828 16.12982940673828,29.22599983215332 0,29.22599983215332 C-16.12982940673828,29.22599983215332 -29.22599983215332,16.12982940673828 -29.22599983215332,0 C-29.22599983215332,-16.12982940673828 -16.12982940673828,-29.22599983215332 0,-29.22599983215332z"></path>
+                                    </g>
+                                  </g>
+                                  <!-- dordunji top -->
+                                  <g class="circless4" transform="matrix(0.8999999761581421,0,0,0.8999999761581421,698,696)" opacity="1" style="display: block;">
+                                    <g opacity="1" transform="matrix(0.8168500065803528,0,0,0.8168500065803528,-1.4259999990463257,24.236000061035156)">
+                                      <path fill="rgb(255,209,40)" fill-opacity="1" d=" M0,-74.1344985961914 C40.91482925415039,-74.1344985961914 74.1344985961914,-40.91482925415039 74.1344985961914,0 C74.1344985961914,40.91482925415039 40.91482925415039,74.1344985961914 0,74.1344985961914 C-40.91482925415039,74.1344985961914 -74.1344985961914,40.91482925415039 -74.1344985961914,0 C-74.1344985961914,-40.91482925415039 -40.91482925415039,-74.1344985961914 0,-74.1344985961914z"></path>
+                                    </g>
+                                  </g>
+                                  <!-- basinji top -->
+                                  <g class="circless5" transform="matrix(0.8999999761581421,0,0,0.8999999761581421,699,697)" opacity="1" style="display: block;">
+                                    <g opacity="1" transform="matrix(1,0,0,1,2.563999891281128,214.56199645996094)">
+                                      <path fill="rgb(254,245,247)" fill-opacity="1" d=" M0,-44.90850067138672 C24.785001754760742,-44.90850067138672 44.90850067138672,-24.785001754760742 44.90850067138672,0 C44.90850067138672,24.785001754760742 24.785001754760742,44.90850067138672 0,44.90850067138672 C-24.785001754760742,44.90850067138672 -44.90850067138672,24.785001754760742 -44.90850067138672,0 C-44.90850067138672,-24.785001754760742 -24.785001754760742,-44.90850067138672 0,-44.90850067138672z"></path>
+                                    </g>
+                                  </g>
+                                  <!-- altynjy top -->
+                                  <g class="circless6" transform="matrix(0.800000011920929,0,0,0.800000011920929,961.1929931640625,929.531982421875)" opacity="1" style="display: block;">
+                                    <g opacity="1" transform="matrix(1,0,0,1,-425.55999755859375,-417.0060119628906)">
+                                      <path fill="rgb(255,161,50)" fill-opacity="1" d=" M0,-96.23200225830078 C53.110443115234375,-96.23200225830078 96.23200225830078,-53.110443115234375 96.23200225830078,0 C96.23200225830078,53.110443115234375 53.110443115234375,96.23200225830078 0,96.23200225830078 C-53.110443115234375,96.23200225830078 -96.23200225830078,53.110443115234375 -96.23200225830078,0 C-96.23200225830078,-53.110443115234375 -53.110443115234375,-96.23200225830078 0,-96.23200225830078z"></path>
+                                    </g>
+                                  </g>
+                                  <!-- yedinji top -->
+                                  <g class="circless7" transform="matrix(0.8999999761581421,0,0,0.8999999761581421,706,700)" opacity="1" style="display: block;">
+                                    <g opacity="1" transform="matrix(1,0,0,1,-242.32200622558594,176.91000366210938)">
+                                      <path fill="rgb(0,154,255)" fill-opacity="1" d=" M0,-114.0530014038086 C62.94585037231445,-114.0530014038086 114.0530014038086,-62.94585037231445 114.0530014038086,0 C114.0530014038086,62.94585037231445 62.94585037231445,114.0530014038086 0,114.0530014038086 C-62.94585037231445,114.0530014038086 -114.0530014038086,62.94585037231445 -114.0530014038086,0 C-114.0530014038086,-62.94585037231445 -62.94585037231445,-114.0530014038086 0,-114.0530014038086z"></path>
+                                    </g>
+                                  </g>
+                                  <!-- sekizinji top -->
+                                  <g class="circless8" transform="matrix(0.8999999761581421,0,0,0.8999999761581421,708.8510131835938,690.02001953125)" opacity="1" style="display: block;">
+                                    <g opacity="1" transform="matrix(1,0,0,1,-313.64599609375,-34.215999603271484)">
+                                      <path fill="rgb(255,255,255)" fill-opacity="1" d=" M0,-38.49300003051758 C21.244287490844727,-38.49300003051758 38.49300003051758,-21.244287490844727 38.49300003051758,0 C38.49300003051758,21.244287490844727 21.244287490844727,38.49300003051758 0,38.49300003051758 C-21.244287490844727,38.49300003051758 -38.49300003051758,21.244287490844727 -38.49300003051758,0 C-38.49300003051758,-21.244287490844727 -21.244287490844727,-38.49300003051758 0,-38.49300003051758z"></path>
+                                    </g>
+                                  </g>
+                                  <!-- dokuzynjy top -->
+                                  <g class="circless9" transform="matrix(0.8999999761581421,0,0,0.8999999761581421,713,732)" opacity="1" style="display: block;">
+                                    <g opacity="1" transform="matrix(0.6052200198173523,0,0,0.6052200198173523,-313.5069885253906,-241.62899780273438)">
+                                      <path fill="rgb(15,0,192)" fill-opacity="1" d=" M0,-33.50299835205078 C18.490304946899414,-33.50299835205078 33.50299835205078,-18.490304946899414 33.50299835205078,0 C33.50299835205078,18.490304946899414 18.490304946899414,33.50299835205078 0,33.50299835205078 C-18.490304946899414,33.50299835205078 -33.50299835205078,18.490304946899414 -33.50299835205078,0 C-33.50299835205078,-18.490304946899414 -18.490304946899414,-33.50299835205078 0,-33.50299835205078z"></path>
+                                    </g>
+                                  </g>
+                                  <!-- onunjy top -->
+                                  <g class="circless10" transform="matrix(0.8999999761581421,0,0,0.8999999761581421,713,732)" opacity="1" style="display: block;">
+                                    <g opacity="1" transform="matrix(0.8399999737739563,0,0,0.8399999737739563,-471.9679870605469,-186.41000366210938)">
+                                      <path fill="rgb(255,40,104)" fill-opacity="1" d=" M0,-92.66799926757812 C51.14346694946284,-92.66799926757812 92.66799926757812,-51.14346694946289 92.66799926757812,0 C92.66799926757812,51.14346694946289 51.14346694946289,92.66799926757812 0,92.66799926757812 C-51.14346694946289,92.66799926757812 -92.66799926757812,51.14346694946289 -92.66799926757812,0 C-92.66799926757812,-51.14346694946289 -51.14346694946289,-92.66799926757812 0,-92.66799926757812z"></path>
+                                    </g>
+                                  </g>
+                                </g>
+                                <g class="png">
+                                  <image  href="./assets/images/ii.png" style="transform: translateX(35px);"></image>
+                                </g>
+                              </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-content-holder ">
+                    <div class="c-content-holder-up">
+                        <div class="c-content-holder-up-in">
+                            <div class="c-text__content">
+                                <h3 class="green-color">Assess</h3>
+                                <h2>
+                                    <div class="lineswrap">The perfect candidate</div>
+                                    <div class="lineswrap">does not exi...</div>
+                                </h2>
+                                <p>
+                                    <div class="lineswrap">Our innovative Stryve Score system will let you filter and organise hundreds of applicants quickly,so you can find the best candidate for your business.</div>
+                                </p>
+                            </div>
+                            <div class="flex-wrapper">
+                                <a href="" class="c-btn">
+                                    <div>Tell me more</div>
+                                    <img src="./assets/images/right-side.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-content-holder-center">
+                        <div class="c-content-holder-center-in">
+                            <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1200" width="1200" height="1200" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+                                <g class="circles2" transform="matrix(1,0,0,1,0,0)" style="display: block;">
+                                  <g class="png png-redd"><image width="221px" height="60px" href="./assets/images/circ2.png" transform="matrix(0.7699999809265137,0,0,0.7699999809265137,515.52197265625,548.4230346679688)"></image></g>
+                                  <g class="red" transform="matrix(1,0,0,1,603,590)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-2,-66)"><path fill="rgb(255,40,104)" fill-opacity="1" d=" M0,-98 C54.08620071411133,-98 98,-54.08620071411133 98,0 C98,54.08620071411133 54.08620071411133,98 0,98 C-54.08620071411133,98 -98,54.08620071411133 -98,0 C-98,-54.08620071411133 -54.08620071411133,-98 0,-98z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="0" d=" M0,-98 C54.08620071411133,-98 98,-54.08620071411133 98,0 C98,54.08620071411133 54.08620071411133,98 0,98 C-54.08620071411133,98 -98,54.08620071411133 -98,0 C-98,-54.08620071411133 -54.08620071411133,-98 0,-98z"></path></g></g>
+                                  <g class="png-red png-anime" transform="matrix(0.7699999809265137,0,0,0.7699999809265137,515.52197265625,567.4230346679688)" ><image width="221px" height="60px" href="./assets/images/circc.png"></image></g>
+                                  <g class="end" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,261,122)"><path fill="rgb(130,37,204)" fill-opacity="1" d=" M0,-71 C39.184898376464844,-71 71,-39.184898376464844 71,0 C71,39.184898376464844 39.184898376464844,71 0,71 C-39.184898376464844,71 -71,39.184898376464844 -71,0 C-71,-39.184898376464844 -39.184898376464844,-71 0,-71z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="0" d=" M0,-71 C39.184898376464844,-71 71,-39.184898376464844 71,0 C71,39.184898376464844 39.184898376464844,71 0,71 C-39.184898376464844,71 -71,39.184898376464844 -71,0 C-71,-39.184898376464844 -39.184898376464844,-71 0,-71z"></path></g></g>
+                                  <g class="png png-redd "><image width="221px" height="60px" href="./assets/images/circ2.png" transform="matrix(0.6700000166893005,0,0,0.6700000166893005,720.072021484375,390.4230041503906)"></image></g>
+                                  <g class="pre-end" transform="matrix(1,0,0,1,600,865.5569458007812)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,198,-221)"><path fill="rgb(94,155,254)" fill-opacity="1" d=" M0,-51 C28.146900177001953,-51 51,-28.146900177001953 51,0 C51,28.146900177001953 28.146900177001953,51 0,51 C-28.146900177001953,51 -51,28.146900177001953 -51,0 C-51,-28.146900177001953 -28.146900177001953,-51 0,-51z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="0" d=" M0,-51 C28.146900177001953,-51 51,-28.146900177001953 51,0 C51,28.146900177001953 28.146900177001953,51 0,51 C-28.146900177001953,51 -51,28.146900177001953 -51,0 C-51,-28.146900177001953 -28.146900177001953,-51 0,-51z"></path></g></g>
+                                  <g class="png png-redd"><image width="221px" height="60px" href="./assets/images/circ2.png" transform="matrix(0.8399999737739563,0,0,0.8399999737739563,231.7869873046875,333.822998046875)"></image></g>
+                                  <g class="big" transform="matrix(1,0,0,1,600,674)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-275.88800048828125,-420.5610046386719)"><path fill="rgb(248,184,195)" fill-opacity="1" d=" M0,-143.55149841308594 C79.22607421875,-143.55149841308594 143.55149841308594,-79.22607421875 143.55149841308594,0 C143.55149841308594,79.22607421875 79.22607421875,143.55149841308594 0,143.55149841308594 C-79.22607421875,143.55149841308594 -143.55149841308594,79.22607421875 -143.55149841308594,0 C-143.55149841308594,-79.22607421875 -79.22607421875,-143.55149841308594 0,-143.55149841308594z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="0" d=" M0,-143.55149841308594 C79.22607421875,-143.55149841308594 143.55149841308594,-79.22607421875 143.55149841308594,0 C143.55149841308594,79.22607421875 79.22607421875,143.55149841308594 0,143.55149841308594 C-79.22607421875,143.55149841308594 -143.55149841308594,79.22607421875 -143.55149841308594,0 C-143.55149841308594,-79.22607421875 -79.22607421875,-143.55149841308594 0,-143.55149841308594z"></path></g></g>
+                                  <g class="bluee" transform="matrix(1,0,0,1,600,600)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,194.5,-223.5)"><path fill="rgb(94,155,254)" fill-opacity="1" d=" M0,-80.5 C44.42795181274414,-80.5 80.5,-44.42795181274414 80.5,0 C80.5,44.42795181274414 44.42795181274414,80.5 0,80.5 C-44.42795181274414,80.5 -80.5,44.42795181274414 -80.5,0 C-80.5,-44.42795181274414 -44.42795181274414,-80.5 0,-80.5z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="0" d=" M0,-80.5 C44.42795181274414,-80.5 80.5,-44.42795181274414 80.5,0 C80.5,44.42795181274414 44.42795181274414,80.5 0,80.5 C-44.42795181274414,80.5 -80.5,44.42795181274414 -80.5,0 C-80.5,-44.42795181274414 -44.42795181274414,-80.5 0,-80.5z"></path></g></g>
+                                  <g class="png-blue png-anime2" transform="matrix(0.6700000166893005,0,0,0.6700000166893005,720.072021484375,407.4230041503906)"><image width="221px" height="60px" href="./assets/images/circc.png"></image></g><g class="png png-redd"><image width="221px" height="60px" href="./assets/images/circ2.png" transform="matrix(0.6700000166893005,0,0,0.6700000166893005,613.572021484375,863.9230346679688)"></image></g><g class="litlle-yel" transform="matrix(1,0,0,1,600,590.4837890625)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,87.5,341.5)"><path fill="rgb(255,156,39)" fill-opacity="1" d=" M0,-45.5 C25.1114501953125,-45.5 45.5,-25.1114501953125 45.5,0 C45.5,25.1114501953125 25.1114501953125,45.5 0,45.5 C-25.1114501953125,45.5 -45.5,25.1114501953125 -45.5,0 C-45.5,-25.1114501953125 -25.1114501953125,-45.5 0,-45.5z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="0" d=" M0,-45.5 C25.1114501953125,-45.5 45.5,-25.1114501953125 45.5,0 C45.5,25.1114501953125 25.1114501953125,45.5 0,45.5 C-25.1114501953125,45.5 -45.5,25.1114501953125 -45.5,0 C-45.5,-25.1114501953125 -25.1114501953125,-45.5 0,-45.5z"></path></g></g>
+                                  <g class="png-big png-anime3" transform="matrix(0.8399999737739563,0,0,0.8399999737739563,231.7869873046875,353.822998046875)" ><image width="221px" height="60px" href="./assets/images/circc.png"></image></g><g class="png png-redd"><image width="221px" height="60px" href="./assets/images/circ2.png" transform="matrix(1,0,0,1,255.60699462890625,725.5230102539062)"></image></g>
+                                  <g class="black-yellow" transform="matrix(1,0,0,1,609.7150268554688,586.5560302734375)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-244,74)"><path fill="rgb(255,156,39)" fill-opacity="1" d=" M0,-131 C72.29889678955078,-131 131,-72.29889678955078 131,0 C131,72.29889678955078 72.29889678955078,131 0,131 C-72.29889678955078,131 -131,72.29889678955078 -131,0 C-131,-72.29889678955078 -72.29889678955078,-131 0,-131z"></path></g></g><g class="png-bl-yel png-anime4" transform="matrix(1,0,0,1,255.60699462890625,754.5230102539062)" ;><image width="221px" height="60px" href="./assets/images/circc.png"></image></g><g class="yellow2" transform="matrix(1,0,0,1,600,600)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,88,255)"><path fill="rgb(241,208,47)" fill-opacity="1" d=" M0,-80 C44.152000427246094,-80 80,-44.152000427246094 80,0 C80,44.152000427246094 44.152000427246094,80 0,80 C-44.152000427246094,80 -80,44.152000427246094 -80,0 C-80,-44.152000427246094 -44.152000427246094,-80 0,-80z"></path></g></g><g class="png-yel png-anime5" transform="matrix(0.6700000166893005,0,0,0.6700000166893005,613.572021484375,880.9230346679688)" ><image width="221px" height="60px" href="./assets/images/circc.png"></image></g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="c-design__line cc-home-2"><div class="c-draw-line__img w-embed"><svg id="home-line-2" width="100%" height="100%" viewBox="0 0 195 284" fill="none" xmlns="http://www.w3.org/2000/svg" class=" drawsvg-initialized drawsvg-initialized2">
+                        <path d="M123.003 283C221.391 260.206 212.901 158.607 126 172.935C-53.2889 202.496 8.13364 111.716 24.1155 1" stroke="#0C1D36" stroke-width="2"></path>
+                        </svg></div>
+                    </div>
+                </div>
+                <div class="c-content-holder ">
+                    <div class="c-content-holder-in_up">
+                        <div class="c-content_wrapper">
+                            <div class="c-text__content">
+                                <h3 class="dark-blue-color">Simplify</h3>
+                                <h2>Automate the flow</h2>
+                                <p>
+                                    <div class="lineswrap">Time is money. Look under the Stryve hood and discover
+                                        a wonderful world of automations. Using our hiring flow,
+                                        you'll be able to trigger emails, events and more. Save
+                                        hours of time and let Stryve worry about the admin.
+                                    </div>
+                                </p>
+                            </div>
+                            <div class="flex-wrapper">
+                                <a href="" class="c-btn">
+                                    <div>More on that flow state</div>
+                                    <img src="./assets/images/right-side.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-content-holder-down">
+                        <div class="c-content-holder-in_down-in c-content-holder-in_down-in-in">
+                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76.32 76.32">
+                                <defs>
+                                  <style>
+                                    .cls-1 {
+                                      fill: #fff200;
+                                    }
+                                  </style>
+                                </defs>
+                                <circle transform ="matrix(0.1,0,0,0.1,0,67.2)" class="cls-1" cx="38.16" cy="38.16" r="38.16"/>
+                                <defs>
+                                    <style>
+                                      .cls-2 {
+                                        fill: #29ef51;
+                                      }
+                                    </style>
+                                  </defs>
+                                  <rect transform ="matrix(0.1,0,0,0.1,0,67.2)"  class="cls-2" width="221.05" height="12.26"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="cc-home-3"><div class="c-draw-line__img w-embed"><svg id="home-line-3" width="100%" height="100%" viewBox="0 0 258 289" fill="none" xmlns="http://www.w3.org/2000/svg" class=" drawsvg-initialized drawsvg-initialized4">
+                        <path d="M1 286.883C123.5 298.626 159.5 215.118 97.0001 161.62C-50.5796 35.2977 44 -38.0155 257 22.6587" stroke="#0C1D36" stroke-width="2"></path>
+                        </svg></div>
+                    </div>
+                </div>
+                <div id="ignoreme1" class="c-draw-line__holder"><div class="c-draw-line__img w-embed"><svg id="home-line-1" width="100%" height="100%" viewBox="0 0 302 528" fill="none" xmlns="http://www.w3.org/2000/svg" class="drawsvg-initialized drawsvg-initialized3">
+                    <path d="M97.273 527C294.704 487.015 315.417 351.666 293 296C218.5 111 -53.5002 236 11.4998 0.5" stroke="#0C1D36" stroke-width="2"></path>
+                    </svg></div>
+                </div>
+            </div>
+        </div>
+        <div class="save c-section">
+            <div class="save-inner">
+                <div class="save-inner_up">
+                    <div class="save-inner_up-up">
+                        <div class="s-i-u-u-in">
+                            <svg class="price-line" id="price-line" width="100%" height="214" viewBox="0 0 1440 214" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path id="price-svg-path" d="M-1634 97.7656C-1305.5 97.7656 -982.5 -96.7324 -415.5 65.7673C151.499 228.267 827.5 269 827.5 119.767C827.5 25.5 582 58.5 582 151.766C582 311 1280.5 -72.6134 1841 97.7656C2401.5 268.145 2717.7 166.92 2916.5 97.7653" pathLength="1" stroke="black" stroke-width="2" class="price-svg-path"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="save-inner_up-down">
+                        <div class="s-i-u-d-in">
+                            <h2>Save</h2>
+                            <h2 class="heading-11">100s of hours</h2>
+                            <h2 class="heading-12">with Stryve</h2>
+                            <p>...giving you more time to focus on the human bit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="save-inner_down">
+                    <a href="" class="c-btn">
+                        <div>Get started for free</div>
+                        <img src="./assets/images/right-side.svg" alt="">
+                    </a>
+                </div>
+                <div class="text-block-22">14 day free trial - no credit card required.</div>
+            </div>
+        </div>
+        <div class="our_customers c-section">
+            <div class="our_customers-inner">
+                <div class="c-gradient__bg"></div>
+                <div class="our_customers-inner-in">
+                    <div class="c-header">
+                        <h1 class="h11">What do our customers think?</h1>
+                    </div>
+                    <div class="c-slider__container">
+                        <div class="c-slider__container-in">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="c-card">
+                                        <div class="c-img__inner"></div>
+                                        <img src="./assets/images/61ea7bac4e0cbe7315ec169a_Katharine bw-p-800.jpeg" alt="">
+                                        <div class="c-card__text">
+                                            <h3>Katharine Archer</h3>
+                                            <div class="slider-title">
+                                                <div class="lineswrap">People and Development Parner, Ridgeview</div>
+                                                <div class="lineswrap">Estate Winery</div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="sm-ellipse"></a>
+                                        <a href="#" class="s-s-btn c-btn">
+                                            <div></div>
+                                            <div>Read more</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="c-card c-card2">
+                                        <div class="c-img__inner"></div>
+                                        <img src="./assets/images/two.png" alt="">
+                                        <div class="c-card__text">
+                                            <h3>Richard Angel</h3>
+                                            <div class="slider-title">
+                                                <div class="lineswrap">CEO,Angel O'Donnell</div>
+                                            </div>
+                                        </div>
+                                        <a href="" class="sm-ellipse"></a>
+                                        <a href="" class="s-s-btn c-btn">
+                                            <div></div>
+                                            <div>Read more</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="c-card">
+                                        <div class="c-img__inner"></div>
+                                        <img src="./assets/images/three.jpeg" alt="">
+                                        <div class="c-card__text">
+                                            <h3>Alex Rook</h3>
+                                            <div class="slider-title">
+                                                <div class="lineswrap">Founder,Vovi</div>
+                                            </div>
+                                        </div>
+                                        <a href="" class="sm-ellipse"></a>
+                                        <a href="" class="s-s-btn c-btn">
+                                            <div></div>
+                                            <div>Read more</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-arrows">
+                        <div class="swiper-l">
+                            <img src="./assets/images/side.svg" alt="">
+                        </div>
+                        <div class="swiper-l swiper-right">
+                            <img src="./assets/images/side.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="helps_section c-section">
+            <div class="helps_section-inner">
+                <div class="helps_section_theme">
+                    <h2>
+                        <div class="lineswrap">We’re here to help with</div>
+                        <div class="lineswrap">heaps of insights and tips</div>
+                    </h2>
+                </div>
+                <div class="helps_section_list">
+                    <div class="list">
+                        <div class="listitem">
+                            <div class="c-cardd cc-tips">
+                                <a href=""class="a-up w-inline-blockk" ><img class="c-card__img cc-small" src="./assets/images/ones.jpeg" alt=""></a>
+                                <div class="c-card__info">
+                                    <a href="">Advice</a>
+                                    <div class="c-card__reading-time">
+                                        <div class="c-card__info-separator"></div>
+                                        <div class="c-card__info-txt">5</div>
+                                        <div class="c-card__info-txt mrg-left">mins</div>
+                                    </div>
+                                </div>
+                                <h4>Hiring with video technology: How is it done without bias?</h4>
+                                <a href="" class="w-inline-block">
+                                    <div>Read it</div>
+                                    <img src="./assets/images/right-side copy.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="listitem">
+                            <div class="c-cardd cc-tips">
+                                <a href=""class="a-up w-inline-blockk" ><img class="c-card__img cc-small" src="./assets/images/twos.jpeg" alt=""></a>
+                                <div class="c-card__info">
+                                    <a href="" class="green">Updates</a>
+                                </div>
+                                <h4>Stryve becomes B Corp Pending company</h4>
+                                <a href="" class=" w-inline-block">
+                                    <div>Read it</div>
+                                    <img src="./assets/images/right-side copy.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="listitem">
+                            <div class="c-cardd cc-tips">
+                                <a href=""class="a-up w-inline-blockk" ><img class="c-card__img cc-small" src="./assets/images/threes.jpeg" alt=""></a>
+                                <div class="c-card__info">
+                                    <a href="">Advice</a>
+                                </div>
+                                <h4>Seizing the new opportunity for diversity: How can we rebuild after Covid-19?</h4>
+                                <a href="" class=" w-inline-block">
+                                    <div>Read it</div>
+                                    <img src="./assets/images/right-side copy.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="listitem">
+                            <div class="c-cardd cc-tips">
+                                <a href=""class="a-up w-inline-blockk" ><img class="c-card__img cc-small" src="./assets/images/fours.jpeg" alt=""></a>
+                                <div class="c-card__info">
+                                    <a href="" class="blue-title">Tricks</a>
+                                    <div class="c-card__reading-time">
+                                        <div class="c-card__info-separator blue"></div>
+                                        <div class="c-card__info-txt">10</div>
+                                        <div class="c-card__info-txt mrg-left">mins</div>
+                                    </div>
+                                </div>
+                                <h4>3 ways to hire for free</h4>
+                                <a href="" class=" w-inline-block">
+                                    <div>Read it</div>
+                                    <img src="./assets/images/right-side copy.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-wrapper">
+                    <a href="" class="c-btn">
+                        <div>More tips and tricks this way</div>
+                        <img src="./assets/images/right-side.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="c-pre-footer">
+            <div class="c-pre-footer-inner">
+                <div class="c-footer-lottie">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4800 1600" width="4800" height="1600" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+                        <g>
+                            <g class="png">
+                                <image width="4716px" height="848px" transform="matrix(1,0,0,1,42,752)" opacity="1" style="display: block;" href="./assets/images/footer.png"></image>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <div class="c-pre-footer__cover">
+                    <div class="c-pre-footer__text">
+                        <div class="text-h">
+                            <h1>
+                                <div class="lineswrap">Welcome to a more</div>
+                                <div class="lineswrap">human way to hire</div>
+                            </h1>
+                        </div>
+                        <div class="text-f">
+                            <a href="" class="c-btn">
+                                <div>Try for free</div>
+                                <img src="./assets/images/right-side copy.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="text-block-20">
+                            14 day free trial - no credit card required.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-inner">
+                <div class="c-footer-upper-portion">
+                    <div class="cc-ctn">
+                        <div class="c-footer__upper">
+                            <div class="footer-grid">
+                                <div class="c-footer__logo-part c-footer__logo-part2">
+                                    <a href="#" class="logo">
+                                        <img src="./assets/images/stryve1.svg" alt="">
+                                    </a>
+                                    <div class="cc-socials">
+                                        <a href="" class="c-btn">Log in</a>
+                                        <a href="" class="c-btn">Get started</a>
+                                    </div>
+                                    <img class="logo-out" src="./assets/images/logo.png" alt="">
+                                </div>
+                                <div class="c-footer__links">
+                                    <div class="c-footer__links-block">
+                                        <div class="c-footer__header">Why Stryve</div>
+                                        <a href="" class="c-footer__link-item">Time</a>
+                                        <a href="" class="c-footer__link-item">Compliance</a>
+                                        <a href="" class="c-footer__link-item">Diversity & inclusion</a>
+                                        <a href="" class="c-footer__link-item">All features</a>
+                                    </div>
+                                    <div class="c-footer__links-block cc-build-for">
+                                        <div class="c-footer__header">Built for</div>
+                                        <a href="" class="c-footer__link-item">Start-ups </a>
+                                        <a href="" class="c-footer__link-item">Growing businesses</a>
+                                        <a href="" class="c-footer__link-item">Established businesses</a>
+                                    </div>
+                                    <div class="c-footer__links-block">
+                                        <div class="c-footer__header">Solution</div>
+                                        <a href="" class="c-footer__link-item">Attract talent </a>
+                                        <a href="" class="c-footer__link-item">Assess talent</a>
+                                        <a href="" class="c-footer__link-item">Simplify hiring</a>
+                                    </div>
+                                    <div class="c-footer__links-block">
+                                        <div class="c-footer__header">Company</div>
+                                        <a href="" class="c-footer__link-item">Pricing</a>
+                                        <a href="" class="c-footer__link-item">News</a>
+                                        <a href="" class="c-footer__link-item">Learning</a>
+                                        <a href="" class="c-footer__link-item">Careers</a>
+                                        <a href="" class="c-footer__link-item">B Corp</a>
+                                        <a href="" class="c-footer__link-item">About</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-footer-lower-portion">
+                    <div class="cc-ctn">
+                        <div class="c-footer__lower">
+                            <div class="w-layout-gridd footer-grid__lower">
+                                <div class="c-footer__logo-part">
+                                    <div class="footer-grid__lower-up">
+                                        <h5>Follow us</h5>
+                                    </div>
+                                    <div class="footer-grid__lower-down flex-wrapper">
+                                        <a href="" class="c-footer__social-linkk w-inline-block">
+                                            <img src="./assets/images/linkedin.svg" alt="">
+                                        </a>
+                                        <a href="" class="c-footer__social-linkk w-inline-block">
+                                            <img src="./assets/images/instagram.svg" alt="">
+                                        </a>
+                                        <a href="" class="c-footer__social-linkk w-inline-block">
+                                            <img src="./assets/images/facebook.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="c-footer__linkss">
+                                    <div class="c-footer__links-block">
+                                        <div class="c-footer__header">Phone us</div>
+                                        <div class="is--white is--whitee">0330 223 5368</div>
+                                    </div>
+                                    <div class="c-footer__links-block">
+                                        <div class="c-footer__header">Email us</div>
+                                        <div class="is--white is--whitee">hello@stryve.online</div>
+                                    </div>
+                                    <div class="c-footer__links-block">
+                                        <div class="c-footer__header">Find us</div>
+                                        <div class="is--white">Labs, 90 High Holborn, <br> Holborn, London WC1V 6LJ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-layout-gridd footer-grid__bottom">
+                                <div class="logo-part">
+                                    <h5>Stryve 2023</h5>
+                                </div>
+                                <div class="c-footer__linkss">
+                                    <div class="c-footer__links-block">
+                                        <div class="c-footer__header">Terms & conditions</div>
+                                    </div>
+                                    <div class="c-footer__links-block">
+                                        <div class="c-footer__header">Privacy</div>
+                                    </div>
+                                    <div class="c-footer__links-block">
+                                        <div class="c-footer__header">Cookies</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+@media (max-width: 767px) {
+  .save .save-inner {
+    padding-bottom: 40px;
+  }
+}
+.save .save-inner .save-inner_up {
+  width: 85%;
+  max-width: 1280px;
+  min-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .save .save-inner .save-inner_up {
+    max-width: 767px;
+    min-width: 440px;
+  }
+}
+@media (max-width: 479) {
+  .save .save-inner .save-inner_up {
+    max-width: 479px;
+    min-width: 300px;
+  }
+}
+.save .save-inner .save-inner_up .save-inner_up-up {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-left: 30px;
+  top: -23%;
+  left: auto;
+  right: auto;
+  z-index: -1;
+  position: absolute;
+  bottom: auto;
+}
+@media (max-width: 767px) {
+  .save .save-inner .save-inner_up .save-inner_up-up {
+    margin-left: 0;
+    top: -36%;
+  }
+}
+@media (max-width: 479px) {
+  .save .save-inner .save-inner_up .save-inner_up-up {
+    top: -91px;
+    left: -11px;
+  }
+}
+.save .save-inner .save-inner_up .save-inner_up-up .s-i-u-u-in {
+  width: 100%;
+  height: 100%;
+}
+.save .save-inner .save-inner_up .save-inner_up-up .s-i-u-u-in::before {
+  content: "";
+  display: table;
+  grid-area: 1/1/2/2;
+}
+.save .save-inner .save-inner_up .save-inner_up-up .s-i-u-u-in::after {
+  content: "";
+  clear: both;
+  display: table;
+  grid-area: 1/1/2/2;
+}
+.save .save-inner .save-inner_up .save-inner_up-up .s-i-u-u-in .price-line .price-svg-path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+}
+.save .save-inner .save-inner_up .save-inner_up-up .s-i-u-u-in .price-line .price-svg-path1 {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: dash 2s linear alternate 2;
+}
+.save .save-inner .save-inner_up .save-inner_up-down {
+  width: 100%;
+  padding-bottom: 40px;
+}
+.save .save-inner .save-inner_up .save-inner_up-down .s-i-u-d-in {
+  min-width: auto;
+  margin: 0 auto;
+  padding-top: 0;
+  max-width: 30ch;
+  text-align: center;
+  font-weight: 300;
+}
+@media (max-width: 991px) {
+  .save .save-inner .save-inner_up .save-inner_up-down .s-i-u-d-in h2 {
+    font-size: 28.83px;
+    line-height: 40px;
+  }
+}
+.save .save-inner .save-inner_down {
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  display: flex;
+}
+.save .save-inner .save-inner_down .c-btn {
+  margin-right: 0;
+}
+.save .save-inner .save-inner_down .c-btn img {
+  margin-left: 5px;
+  transition: all 0.4s ease-in-out;
+}
+.save .save-inner .save-inner_down .c-btn:hover img {
+  transform: translateX(5px);
+}
+.save .save-inner .text-block-22 {
+  color: #009aff;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 13px;
+}
+
+@keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

@@ -1,0 +1,120 @@
+.save{
+    .save-inner{
+        @media (max-width:767px) {
+            padding-bottom: 40px;
+        }
+        .save-inner_up{
+            width: 85%;
+            max-width: 1280px;
+            min-width: 970px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            @media (max-width:767px) {
+                max-width: 767px;
+                min-width: 440px;
+            }
+            @media (max-width:479) {
+                max-width: 479px;
+                min-width: 300px;
+            }
+            .save-inner_up-up{
+                width: 100%;
+                height: 100%;
+                display: block;
+                margin-left: 30px;
+                top: -23%;
+                left: auto;
+                right: auto;
+                z-index: -1;
+                position: absolute;
+                bottom: auto;
+                @media (max-width:767px) {
+                    margin-left: 0;
+                    top: -36%;
+                }
+                @media (max-width:479px) {
+                    top: -91px;
+                    left: -11px;
+                }
+                .s-i-u-u-in{
+                    width: 100%;
+                    height: 100%;       
+                    &::before{
+                        content: "";
+                        display: table;
+                        grid-area: 1/1/2/2;
+                    }
+                    &::after{
+                        content: "";
+                        clear: both;
+                        display: table;
+                        grid-area: 1/1/2/2;
+                    }
+                    .price-line{
+                        .price-svg-path{
+                            stroke-dasharray: 1;
+                            stroke-dashoffset: 1;
+                        }
+                        .price-svg-path1{
+                            stroke-dasharray: 1;
+                            stroke-dashoffset: 1;
+                            animation: dash 2s linear alternate 2;
+                        }
+                    }
+                }
+            }
+            .save-inner_up-down{
+                width: 100%;
+                padding-bottom: 40px;
+                .s-i-u-d-in{
+                    min-width:auto;
+                    margin: 0 auto;
+                    padding-top: 0;
+                    max-width: 30ch;
+                    text-align: center;
+                    font-weight: 300;
+                    h2{
+                        @media (max-width:991px) {
+                            font-size: 28.83px;
+                            line-height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+        .save-inner_down{
+            justify-content: center;
+            align-items: center;
+            flex-flow: row;
+            display: flex;
+            .c-btn{
+                margin-right: 0;
+                img{
+                    margin-left: 5px;
+                    transition: all .4s ease-in-out;
+                }
+                &:hover{
+                    img{
+                        transform: translateX(5px);
+                    }
+                }
+            }
+        }
+        .text-block-22{
+            color: #009aff;
+            text-align: center;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 13px;
+        }
+    }
+}
+@keyframes dash{
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
